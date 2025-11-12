@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+// pallete
+// https://colorhunt.co/palette/c4dfdfd2e9e9e3f4f4f8f6f4
+// https://dribbble.com/shots/15882885-Patient-Profile-Management
+// https://dribbble.com/shots/23450283-Treatment-Microbiome-Timeline-Interface
+// https://dribbble.com/shots/23870293-Apple-Vision-Pro-Spatial-UI-Health-App
+$primary-color: #C4DFDF;
+$secondary-color: #D2E9E9;
+$third-color: #E3f4f4;
+$forth-color: #f8f6f4;
+// Glassmorphism
+
+.glassstyle {
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.17);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.5px);
+-webkit-backdrop-filter: blur(13.5px);
+border: 1px solid rgba(255, 255, 255, 0.72);
+}
